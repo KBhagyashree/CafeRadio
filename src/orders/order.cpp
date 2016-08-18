@@ -4,17 +4,16 @@
 //
 // Created by: Bhagyashree Khairnar
 
-#include "iostream.h";
+#include <iostream>
+#include "../../include/orders/order.h"
 
-class Order
-{
-   public:
-      Order(void){
-         cout << "Creating a new Order";
-      }
-      ~Order(void){
-         cout << "Order completed!";
-      }
-};
+//class Order definitions
+Order::Order(void){
+     std::cout << "Creating a new Order\n";
+}
+
+Order::~Order(void){
+     std::cout << "Order completed!\n";
+}
 
 // End of File

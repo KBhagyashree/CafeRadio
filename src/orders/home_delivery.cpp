@@ -5,17 +5,17 @@
 // Created by: Bhagyashree Khairnar
 
 
-#include "iostream.h";
+#include <iostream>
+#include "../../include/orders/order.h"
+#include "../../include/orders/home_delivery.h"
 
-class HomeDelivery: public Order
-{
-   public:
-      HomeDelivery(void){
-         cout << "Processing Home Delivery request.";
-      }
-      ~HomeDelivery(void){
-         cout << "Food delivered!";
-      }
-};
+// class HomeDelivery definitions
+HomeDelivery::HomeDelivery(void){
+   std::cout << "Processing Home Delivery request.\n";
+}
+
+HomeDelivery::~HomeDelivery(void){
+   std::cout << "Food delivered!\n";
+}
 
 // End of File
