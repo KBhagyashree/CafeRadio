@@ -12,7 +12,7 @@ class Order
 {
    public:
       Order(void);   // Default Constructor
-      ~Order(void);  // Destructor
+      virtual ~Order(void);  // Destructor
 
   // TODO: To be used in latter exercises
   // protected:
